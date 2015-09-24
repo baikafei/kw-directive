@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html x-ng-app="directive">
+<head>
+<meta charset="UTF-8">
+<title>Kw Directive Sample</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="kw-directive/css/styles.css">
+</head>
+<body>
+
+	<kw-menu>
+		<kw-brand  x-image="'img/favicon.ico'" x-link="'https://www.facebook.com/LuluKwon'"></kw-brand>
+		<kw-menu-bar />
+	</kw-menu>
+
+	<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="kw-directive/directive.js"></script>
+	<script type="text/javascript" src="kw-directive/menu/js/menu.js"></script>
+	
+	<script type="text/javascript" src="modules/main/app.js"></script>
+</body>
+</html>

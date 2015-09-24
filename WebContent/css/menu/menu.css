@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.f-menu-bar {
+	background-color: #00979C;
+}
+
+.f-menu > ul > li.open > a {
+	background-color: #067377 !important;
+}
+
+.f-menu > ul > li > a {
+	color: white !important;
+	font-weight: bold;
+}

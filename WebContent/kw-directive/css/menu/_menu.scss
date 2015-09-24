@@ -1,0 +1,18 @@
+@import '../variable';
+
+@mixin menu {
+
+	.f-menu-bar {
+		background-color: $green;
+	}
+	
+	.f-menu > ul > li.open > a {
+		background-color: $green-dark !important;
+	}
+	
+	.f-menu > ul > li > a {
+		color: white !important;
+		font-weight: bold;
+	}
+	
+}
